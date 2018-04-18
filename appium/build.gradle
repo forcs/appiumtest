@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'io.appium:java-client:5.0.0-BETA6'
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
